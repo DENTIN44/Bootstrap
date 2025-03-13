@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
+
+</head>
+<body>
+    <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+           Default
+        </button>
+        <div class="dropdown-menu">
+           <a class="dropdown-item" href="#">Action</a>
+           <a class="dropdown-item" href="#">Another action</a>
+           <a class="dropdown-item" href="#">Something else here</a>
+           <hr class="dropdown-divider">
+           <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+     </div>
+     
+     <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+           Primary
+        </button>
+        <div class="dropdown-menu">
+           <a class="dropdown-item" href="#">Action</a>
+           <a class="dropdown-item" href="#">Another action</a>
+           <a class="dropdown-item" href="#">Something else here</a>
+           <hr class="dropdown-divider">
+           <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+     </div>
+<br>     
+<br>     
+<br>
+     <!-- Split button dropdown -->
+     <div class="btn-group">
+        <button type="button" class="btn btn-secondary">Default</button>
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+           <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+           <a class="dropdown-item" href="#">Action</a>
+           <a class="dropdown-item" href="#">Another action</a>
+           <a class="dropdown-item" href="#">Something else here</a>
+           <hr class="dropdown-divider">
+           <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+     </div>
+     
+     <div class="btn-group">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+           <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+           <a class="dropdown-item" href="#">Action</a>
+           <a class="dropdown-item" href="#">Another action</a>
+           <a class="dropdown-item" href="#">Something else here</a>
+           <hr class="dropdown-divider">
+           <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+     </div>
+<br>     
+<br>     
+<br>
+    <div class="column" style="margin-left:50px; margin-top:200px">
+    
+        <div class="btn-group dropup">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Default
+        </button>
+        
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <hr class="dropdown-divider">
+            <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+        </div>
+        
+        <div class="btn-group dropup">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Primary
+        </button>
+        
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <hr class="dropdown-divider">
+            <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+        </div>
+        
+    </div>
+<br>
+<br>
+<br>
+    <div style="padding: 100px 100px 10px;">
+    
+        <form class="bs-example bs-example-form" role="form">
+        
+        <!-- First input group -->
+        <div class="input-group">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="twitterhandle">
+        </div>
+        
+        <br>
+        
+        <!-- Second input group -->
+        <div class="input-group">
+            <input type="text" class="form-control">
+            <span class="input-group-text">.00</span>
+        </div>
+        
+        <br>
+        
+        <!-- Third input group -->
+        <div class="input-group">
+            <span class="input-group-text">$</span>
+            <input type="text" class="form-control">
+            <span class="input-group-text">.00</span>
+        </div>
+    
+    </form>
+    
+    </div>
+<br>
+<br>
+<br>
+    <!-- For cross browser compatibility, avoid using<select> elements here as theycannot be fully styled inWebKit browsers. Also do notapply input group classesdirectly to form groups. Aninput group is an isolatedcomponent.
+    -->
+    <div style="padding: 100px 100px 10px;">
+   
+        <form class="bs-example bs-example-form" role="form">
+           
+           <!-- Select with input group -->
+           <div class="input-group">
+              <span class="input-group-text">@</span>
+              <select class="form-select" aria-label="Select twitter handle">
+                 <option value="1">Option 1</option>
+                 <option value="2">Option 2</option>
+                 <option value="3">Option 3</option>
+              </select>
+           </div>
+           
+           <br>
+           
+           <!-- Another select with input group -->
+           <div class="input-group">
+              <select class="form-select">
+                 <option value="1">Option 1</option>
+                 <option value="2">Option 2</option>
+                 <option value="3">Option 3</option>
+              </select>
+              <span class="input-group-text">.00</span>
+           </div>
+           
+           <br>
+           
+           <!-- Another select with prepended and appended text -->
+           <div class="input-group">
+              <span class="input-group-text">$</span>
+              <select class="form-select">
+                 <option value="1">Option 1</option>
+                 <option value="2">Option 2</option>
+                 <option value="3">Option 3</option>
+              </select>
+              <span class="input-group-text">.00</span>
+           </div>
+        
+        </form>
+        
+     </div>
+<br>
+<br>
+<br>
+    <div style="padding: 100px 100px 10px;">
+    
+        <form class="bs-example bs-example-form" role="form">
+        <!-- Large Input Group -->
+        <div class="input-group input-group-lg">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="Twitterhandle">
+        </div>
+        
+        <br>
+    
+        <!-- Default Input Group -->
+        <div class="input-group">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="Twitterhandle">
+        </div>
+        
+        <br>
+    
+        <!-- Small Input Group -->
+        <div class="input-group input-group-sm">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="Twitterhandle">
+        </div>
+        </form>
+        
+    </div>
+<br>
+<br>
+<br>
+    <div style="padding: 100px 100px 10px;">
+    
+        <form class="bs-example bs-example-form" role="form">
+        <div class="row">
+            
+            <!-- First input group with checkbox -->
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <span class="input-group-text">
+                    <input type="checkbox">
+                    </span>
+                    <input type="text" class="form-control" placeholder="Text with checkbox">
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+            <br>
+            
+            <!-- Second input group with radio -->
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <span class="input-group-text">
+                    <input type="radio">
+                    </span>
+                    <input type="text" class="form-control" placeholder="Text with radio">
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+            
+        </div><!-- /.row -->
+        </form>
+        
+    </div>
+ <br>
+ <br>
+ <br>
+    <div style="padding: 100px 100px 10px;">
+        <form role="form">
+        <div class="row g-3">
+            
+            <!-- Input Group with Button Prepending -->
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <button class="btn btn-outline-secondary" type="button">Go!</button>
+                    <input type="text" class="form-control" placeholder="Type something">
+                </div>
+            </div>
+            
+            <!-- Input Group with Button Appending -->
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Type something">
+                    <button class="btn btn-outline-secondary" type="button">Go!</button>
+                </div>
+            </div>
+    
+        </div>
+        </form>
+    </div>
+    
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
